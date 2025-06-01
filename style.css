@@ -190,4 +190,21 @@ footer {
   background: #356abf;
   transform: translateY(-2px);
 }
+.tools-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.tools-icons a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease;
+  object-fit: contain;
+}
+
+.tools-icons a img:hover {
+  transform: scale(1.15);
+}
 
