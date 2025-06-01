@@ -64,7 +64,7 @@ footer {
   color: #666;
 }
 
-/* Proyectos: grilla y estilo */
+/* Grilla de proyectos */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
