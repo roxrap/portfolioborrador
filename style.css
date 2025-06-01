@@ -21,13 +21,28 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
-
 header {
   background: #4a90e2;
   color: white;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #fefefe;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 main section {
   padding: 2rem;
