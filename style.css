@@ -160,4 +160,34 @@ footer {
   border-radius: 6px;
 }
 
+.button-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.button-icons a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #4a90e2;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-icons a img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.button-icons a:hover {
+  background: #356abf;
+  transform: translateY(-2px);
+}
 
