@@ -12,6 +12,20 @@
       background: #f4f4f4;
       color: #333;
     }
+    nav {
+      background: #333;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
     header {
       background: #4a90e2;
       color: white;
@@ -52,12 +66,19 @@
 </head>
 <body>
 
+<nav>
+  <a href="#about">Sobre mí</a>
+  <a href="#projects">Proyectos</a>
+  <a href="#articles">Artículos</a>
+  <a href="#contact">Contacto</a>
+</nav>
+
 <header>
   <h1>Roxana Rapali</h1>
   <h2>Analista de Datos</h2>
 </header>
 
-<section>
+<section id="about">
   <h2>Sobre mí</h2>
   <p>🎯 Soy Roxana, analista de datos con enfoque estratégico en áreas de negocio como créditos, cobranzas, ventas y atención al cliente.</p>
   <p>Me apasiona descubrir oportunidades a través de los datos: crear dashboards, automatizar reportes, detectar insights y colaborar con líderes para tomar decisiones informadas.</p>
@@ -66,7 +87,7 @@
   <p>🔍 Busco sumarme a un equipo colaborativo, con bienestar laboral y modalidad remota o híbrida.</p>
 </section>
 
-<section>
+<section id="projects">
   <h2>Proyectos destacados</h2>
   <ul>
     <li><strong>📊 Data Science para Restaurantes:</strong> EDA, ETL, MLOps, visualizaciones en la nube con Google Cloud.</li>
@@ -75,7 +96,12 @@
   </ul>
 </section>
 
-<section>
+<section id="articles">
+  <h2>Artículos</h2>
+  <p>📝 Próximamente: artículos técnicos y reflexiones sobre datos, herramientas y toma de decisiones.</p>
+</section>
+
+<section id="contact">
   <h2>Contacto</h2>
   <p>📧 <a href="mailto:roxana.rapali@gmail.com">roxana.rapali@gmail.com</a></p>
   <p>📱 <a href="https://wa.me/5493425018700" target="_blank">WhatsApp: +54 9 342 501 8700</a></p>
