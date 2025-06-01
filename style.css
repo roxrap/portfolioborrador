@@ -105,3 +105,59 @@ footer {
   object-fit: cover;
   border-radius: 4px;
 }
+
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.about-text {
+  flex: 1 1 300px;
+}
+
+.about-images {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.download-cv-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #4a90e2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.download-cv-button:hover {
+  background: #356abf;
+}
+
+.availability {
+  margin-top: 1.5rem;
+  background: #e6f3ff;
+  border-left: 4px solid #4a90e2;
+  padding: 0.75rem 1rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #2c3e50;
+  border-radius: 6px;
+}
+
+
