@@ -4,137 +4,78 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roxana Rapali | Analista de Datos</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    nav {
-      background: #333;
-      padding: 1rem;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    header {
-      background: #4a90e2;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-      background: white;
-      margin-top: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      color: #4a90e2;
-    }
-    a {
-      color: #4a90e2;
-      text-decoration: none;
-    }
-    .buttons a {
-      display: inline-block;
-      margin: 0.5rem 0.5rem 0 0;
-      padding: 0.5rem 1rem;
-      background: #4a90e2;
-      color: white;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav>
+    <a href="#about">Sobre mí</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#articles">Artículos</a>
+    <a href="#contact">Contacto</a>
+  </nav>
 
-<nav>
-  <a href="#about">Sobre mí</a>
-  <a href="#projects">Proyectos</a>
-  <a href="#articles">Artículos</a>
-  <a href="#contact">Contacto</a>
-</nav>
+  <header>
+    <h1>Roxana Rapali</h1>
+    <h2>Analista de Datos</h2>
+  </header>
 
-<header>
-  <h1>Roxana Rapali</h1>
-  <h2>Analista de Datos</h2>
-</header>
+  <main>
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <p>🎯 Soy Roxana, analista de datos con enfoque estratégico en áreas de negocio como créditos, cobranzas, ventas y atención al cliente.</p>
+      <p>Me apasiona descubrir oportunidades a través de los datos: crear dashboards, automatizar reportes, detectar insights y colaborar con líderes para tomar decisiones informadas.</p>
+      <p>🔧 Herramientas: Power BI, Excel, SQL, Python, CRM, plataformas de reporting.</p>
+      <p>💬 Me encanta comunicar: informes claros, presentaciones, capacitación y mejora continua.</p>
+      <p>🔍 Busco sumarme a un equipo colaborativo, con bienestar laboral y modalidad remota o híbrida.</p>
+    </section>
 
-<section id="about">
-  <h2>Sobre mí</h2>
-  <p>🎯 Soy Roxana, analista de datos con enfoque estratégico en áreas de negocio como créditos, cobranzas, ventas y atención al cliente.</p>
-  <p>Me apasiona descubrir oportunidades a través de los datos: crear dashboards, automatizar reportes, detectar insights y colaborar con líderes para tomar decisiones informadas.</p>
-  <p>🔧 Herramientas: Power BI, Excel, SQL, Python, CRM, plataformas de reporting.</p>
-  <p>💬 Me encanta comunicar: informes claros, presentaciones, capacitación y mejora continua.</p>
-  <p>🔍 Busco sumarme a un equipo colaborativo, con bienestar laboral y modalidad remota o híbrida.</p>
-</section>
+    <section id="projects">
+      <h2>Proyectos destacados</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Análisis de Seguridad Vial</h3>
+          <img src="https://static.mercadonegro.pe/wp-content/uploads/2020/10/06223806/What_is_Data_Science.jpg" alt="Visualización de seguridad vial" />
+          <p>Proyecto para la Agencia de Seguridad Vial que analiza incidentes en esquinas y avenidas, detectando patrones y proponiendo soluciones.</p>
+          <p><strong>Tecnologías:</strong> Python, Pandas, Matplotlib, GeoPandas</p>
+          <p><a href="https://github.com/roxrap/Accidentes-viales-PI2" target="_blank">Ver en GitHub</a></p>
+        </div>
+        <div class="project-card">
+          <h3>Foro Atractivo y Responsivo</h3>
+          <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2024-10/data-science.jpg" alt="Captura del foro atractivo" />
+          <p>Este proyecto permite a los usuarios crear publicaciones con imágenes y fechas, en una plataforma responsiva y moderna para foros.</p>
+          <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+          <p><a href="https://github.com/roxrap/Programacion_Web" target="_blank">Ver en GitHub</a></p>
+        </div>
+        <div class="project-card">
+          <h3>Análisis de Restaurantes en Los Ángeles</h3>
+          <img src="https://api.careers.fresenius.com/images/991943ed-97d8-4c6d-a897-cf2734cd9dd9/de80db97f6fc4c199e568571b6f531302fcdfc4de9995b44835ca7a791706411b61cceb1-433edbd8449869b0051c5fd84867fd38c85bbac2ddc7d175" alt="Dashboard restaurantes en Los Ángeles" />
+          <p>Análisis integral de datos para apoyar a un inversor en el rubro gastronómico en LA, combinando datos de Yelp y Google.</p>
+          <p><strong>Tecnologías:</strong> Power BI, SQL, Web Scraping</p>
+          <p><a href="https://github.com/franciscoagamez/PF_google_yelp" target="_blank">Ver en GitHub</a></p>
+        </div>
+      </div>
+    </section>
 
-<section id="projects">
-  <h2>Proyectos destacados</h2>
+    <section id="articles">
+      <h2>Artículos</h2>
+      <p>📝 Próximamente: artículos técnicos y reflexiones sobre datos, herramientas y toma de decisiones.</p>
+    </section>
 
-  <div style="margin-bottom: 2rem; border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: #fafafa;">
-    <h3>Análisis de Seguridad Vial</h3>
-    <img src="https://static.mercadonegro.pe/wp-content/uploads/2020/10/06223806/What_is_Data_Science.jpg" alt="Visualización de seguridad vial" style="max-width:100%; border-radius: 8px;" />
-    <p>Proyecto para la Agencia de Seguridad Vial que analiza incidentes en esquinas y avenidas, detectando patrones y proponiendo soluciones.</p>
-    <p><strong>Tecnologías:</strong> Python, Pandas, Matplotlib, GeoPandas</p>
-    <p><a href="https://github.com/roxrap/Accidentes-viales-PI2" target="_blank">Ver en GitHub</a></p>
-  </div>
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>📧 <a href="mailto:roxana.rapali@gmail.com">roxana.rapali@gmail.com</a></p>
+      <p>📱 <a href="https://wa.me/5493425018700" target="_blank">WhatsApp: +54 9 342 501 8700</a></p>
+      <div class="buttons">
+        <a href="https://www.linkedin.com/in/roxana-rapali/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/roxrap" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1yntgD4ujbHXxeGHk6AdVPp-q9ES78_HZ/view" target="_blank">Descargar CV</a>
+      </div>
+    </section>
+  </main>
 
-  <div style="margin-bottom: 2rem; border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: #fafafa;">
-    <h3>Foro Atractivo y Responsivo</h3>
-    <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2024-10/data-science.jpg" alt="Captura del foro atractivo" style="max-width:100%; border-radius: 8px;" />
-    <p>Este proyecto permite a los usuarios crear publicaciones con imágenes y fechas, en una plataforma responsiva y moderna para foros.</p>
-    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
-    <p><a href="https://github.com/roxrap/Programacion_Web" target="_blank">Ver en GitHub</a></p>
-  </div>
-
-  <div style="margin-bottom: 2rem; border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: #fafafa;">
-    <h3>Análisis de Restaurantes en Los Ángeles</h3>
-    <img src="https://api.careers.fresenius.com/images/991943ed-97d8-4c6d-a897-cf2734cd9dd9/de80db97f6fc4c199e568571b6f531302fcdfc4de9995b44835ca7a791706411b61cceb1-433edbd8449869b0051c5fd84867fd38c85bbac2ddc7d175" alt="Dashboard restaurantes en Los Ángeles" style="max-width:100%; border-radius: 8px;" />
-    <p>Análisis integral de datos para apoyar a un inversor en el rubro gastronómico en LA, combinando datos de Yelp y Google.</p>
-    <p><strong>Tecnologías:</strong> Power BI, SQL, Web Scraping</p>
-    <p><a href="https://github.com/franciscoagamez/PF_google_yelp" target="_blank">Ver en GitHub</a></p>
-  </div>
-
-</section>
-
-<section id="articles">
-  <h2>Artículos</h2>
-  <p>📝 Próximamente: artículos técnicos y reflexiones sobre datos, herramientas y toma de decisiones.</p>
-</section>
-
-<section id="contact">
-  <h2>Contacto</h2>
-  <p>📧 <a href="mailto:roxana.rapali@gmail.com">roxana.rapali@gmail.com</a></p>
-  <p>📱 <a href="https://wa.me/5493425018700" target="_blank">WhatsApp: +54 9 342 501 8700</a></p>
-  <div class="buttons">
-    <a href="https://www.linkedin.com/in/roxana-rapali/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/roxrap" target="_blank">GitHub</a>
-    <a href="https://drive.google.com/file/d/1yntgD4ujbHXxeGHk6AdVPp-q9ES78_HZ/view" target="_blank">Descargar CV</a>
-  </div>
-</section>
-
-<footer>
-  © 2025 Roxana Rapali. Todos los derechos reservados.
-</footer>
-
+  <footer>
+    © 2025 Roxana Rapali. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
+
